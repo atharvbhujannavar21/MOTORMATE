@@ -1,0 +1,17 @@
+{
+  "params":
+  {
+   "local_server": "True",
+    "local_uri": "mysql://root:@localhost/cars",
+    "proud_uri": "mysql://root:@localhost/cars",
+    "fb_url":"https://www.facebook.com",
+    "tw_url":"https://www.twiter.com",
+    "gh_url":"https://github.com/atharvbhujannavar21/MOTORMATE.git",
+    "blog_name": "MotorMate",
+    "headname": "MotorMate",
+    "user": "test",
+    "password": "test",
+    "login_image": "aple.jpg"
+
+  }
+}

@@ -1,0 +1,121 @@
+{% extends "layout.html" %}
+{% block body %}
+
+  <!-- Page Header -->
+   <header class="masthead" style="background-image: url('{{url_for('static',filename='img/home-bg.jpg')}}">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About us</h1>
+            <span class="subheading">My first and only love - CARS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+  <div class="container my-3">
+        <h2>About Automobile Management System</h2>
+        <hr>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How We started this Management System
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Once, I went to an auto parts store and they didn't have the part I needed. The shopkeeper said he'd have to go to the warehouse to get it. This gave me an idea: why not develop a system that keeps auto parts stores well-stocked so they don’t have to make extra trips? When we got a DBMS mini project assignment, we decided to implement this idea as an automobile management system.
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Who are the owners of this Automobile Management System?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                    Design by: Atharv B and Vishnu Bharadwaj M
+                   Implemented by: Harish PC and Syed Uzair Shah
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            How to Reach us?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                    BEML 5th Stage Rajarajeshwari Nagar Bangalore-98
+
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingFourcollapseFour">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            How To Download our mobile application?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFourcollapseFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                    Its avaiable in Playstore: Cars Spa
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            How to Avail Discounts?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div class="card-body">
+                    With SBI and ICICI bank offers.
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
+{% endblock %}
